@@ -16,6 +16,9 @@
     text-align: left;
     height: 200px;
 }
+.logo:hover{
+    transform: scale(1.2,1.2);
+}
 h1{
     text-align: right;
     color: black;
@@ -30,6 +33,13 @@ header{
 }
 body {
     overflow-x: hidden;
+}
+h3{
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color: rgb(0, 37, 123);
 }
 img {
     max-width: 100%;
@@ -59,11 +69,17 @@ img {
     font-weight: bold;
     font-size: 2rem;
 }
+.card:hover{
+    transform: scale(1.05,1.05);
+}
   
 .filter {
     display: none;
 }
-  
+.iconos{
+    display: flex;
+    justify-content: space-between;
+}
 #carrito-container {
     position: relative;
     display: inline-block;
